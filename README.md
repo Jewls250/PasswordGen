@@ -1,3 +1,3 @@
 # PasswordGen
 
-I chose to build this to test my javascript skills.
+I chose to build this password generator to test my javascript skills.
