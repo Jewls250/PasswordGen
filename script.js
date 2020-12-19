@@ -41,9 +41,9 @@ function generatePassword(){
   };
 }
 
-function resetPassword(){
-  confirm('Your password has been deleted.').reset()
-}
+// function resetPassword(){
+//   confirm('Your password has been deleted.').reset()
+// }
 
 
 // Add event listener to generate button
