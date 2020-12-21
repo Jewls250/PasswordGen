@@ -1,6 +1,5 @@
 // Assignment Code
 let generateBtn = document.querySelector("#generate");
-let clearBtn = document.querySelector("#clear");
 
 
 
@@ -13,6 +12,7 @@ function writePassword() {
 
 }
 
+// Generates a password with array of strings
 function generatePassword(){
   confirm('You need at least one of the following')
   confirm('A uppercase letter')
@@ -44,7 +44,7 @@ function generatePassword(){
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
-clearBtn.addEventListener("click", resetPassword)
+
 
 
 
