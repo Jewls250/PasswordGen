@@ -1,20 +1,17 @@
 // Assignment Code
 let generateBtn = document.querySelector("#generate");
 
-
-
 // Write password to the #password input
 function writePassword() {
   let password = generatePassword();
   let passwordText = document.querySelector("#password");
 
   passwordText.value = password;
-
 }
 
 // Generates a password with array of strings
 function generatePassword(){
-  confirm('You need at least one of the following')
+  confirm('Your random password will have atleast one of the following')
   confirm('A uppercase letter')
   confirm('A lower case letter')
   confirm('A symbol')
@@ -44,12 +41,3 @@ function generatePassword(){
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
-
-
-
-
-
-
-
-
-

@@ -33,11 +33,10 @@ header {
 }
 
 .card {
-  background-color: #f4b41a;
   border-radius: 5px;
   border-width: 1px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
-  color: #143d59;
+  color: white;
   font-size: 18px;
   margin: 0 auto;
   max-width: 800px;
@@ -114,10 +113,18 @@ button[disabled] {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
-  border: 2px dashed #143d59;
   border-radius: 6px;
   resize: none;
   overflow: hidden;
+}
+
+#backgroundImg{
+  background-image: url(kevin-brunet-g1VTTiDvm6g-unsplash.jpg);
+    min-height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 @media (max-width: 690px) {
